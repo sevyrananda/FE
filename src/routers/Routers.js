@@ -9,6 +9,10 @@ import BlogDetails from "../pages/BlogDetails";
 import NotFound from "../pages/NotFound";
 import Contact from "../pages/Contact";
 import Welcome from "../pages/Welcome";
+import DataUser from "../pages/DataUser";
+import AddUser from "../pages/AddUser";
+import DataMahasiswa from "../pages/DataMahasiswa";
+import AddMahasiswa from "../pages/AddMahasiswa";
 
 const Routers = () => {
   return (
@@ -23,6 +27,10 @@ const Routers = () => {
       <Route path="/contact" element={<Contact />} />
       <Route path="*" element={<NotFound />} />
       <Route path="/welcome" element={<Welcome />} />
+      <Route path="/user" element={<DataUser />} />
+      <Route path="/add-user" element={<AddUser />} />
+      <Route path="/mahasiswa" element={<DataMahasiswa />} />
+      <Route path="/add-mahasiswa" element={<AddMahasiswa />} />
     </Routes>
   );
 };

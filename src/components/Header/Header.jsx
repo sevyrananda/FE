@@ -27,6 +27,14 @@ const navLinks = [
     path: "/contact",
     display: "Contact",
   },
+  {
+    path: "/user",
+    display: "Data User",
+  },
+  {
+    path: "/mahasiswa",
+    display: "Data Mahasiswa",
+  },
 ];
 
 const Header = () => {
